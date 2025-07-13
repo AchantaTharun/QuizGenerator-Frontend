@@ -39,10 +39,10 @@ const Navbar = () => {
                     Question Banks
                   </ListItem>
                   <ListItem 
-                    NavLink="/test" 
+                    NavLink="/history" 
                     isActive={location.pathname === '/test'}
                   >
-                    Questions
+                    Previous Quizes
                   </ListItem>
                 </ul>
               </nav>

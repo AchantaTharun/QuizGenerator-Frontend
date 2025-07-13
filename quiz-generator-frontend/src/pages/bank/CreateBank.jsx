@@ -1,7 +1,7 @@
 import { useState } from 'react';
 import { useNavigate } from 'react-router-dom';
-import { createQuestionBank } from '../services/api';
-import { useToast } from '../components/Toast';
+import { createQuestionBank } from '../../services/api';
+import { useToast } from '../../components/Toast';
 
 export default function CreateBank() {
   const navigate = useNavigate();

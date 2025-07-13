@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 import { useNavigate, useParams } from 'react-router-dom';
-import { getQuestionBankForEdit, updateQuestionBank } from '../services/api';
-import { useToast } from '../components/Toast';
+import { getQuestionBankForEdit, updateQuestionBank } from '../../services/api';
+import { useToast } from '../../components/Toast';
 
 export default function EditBank() {
   const { id } = useParams();
